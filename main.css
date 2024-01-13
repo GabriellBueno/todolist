@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Pacifico', cursive;*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.conteiner {
+    background-color: #1D1C1B;
+    width: 800px;
+    border-radius: 20px;
+    padding: 18px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input-afazeres, .input-descricao {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+}
+
+.input-afazeres::placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: #8f8f8f;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.botao-adicionar {
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #24a57e;
+    cursor: pointer;
+    margin-left: 100px;
+    padding: 3px 22px 5px 22px;
+    justify-content: center;
+    transition: all ease 0.5s;
+
+    
+}
+
+.botao-adicionar:hover {
+    background-color: #1ed687;
+}
+
+.lista-afazeres{
+    width: 100%;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.task{
+    background-color: white;
+    display: flex;
+    height: 16px;
+    padding: 6.5px 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 9px;
+}
+
+.excluir{
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    height: 22px;
+    width: 22px;
+}
+
+.okay{
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    height: 22px;
+    width: 22px;
+    background-color: #1ed687;
+    transition: all ease 0.2s;
+}
+
+.titulo-tarefa{
+    font-family: 'Roboto', sans-serif;
+}
