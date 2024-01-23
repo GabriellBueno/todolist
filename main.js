@@ -18,6 +18,9 @@ $(document).ready(function(){
 
         $(novo_afazer).appendTo('ul')
         $(novo_afazer).fadeIn(500)
+
+        $('.input-afazeres').val('')
+        $('.input-descricao').val('')
     })
     $('ul').on('click', '#botao-okay', function(){
         $(this).closest('li').find('#box').css('background-color' , '#1ed687')
